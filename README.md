@@ -44,6 +44,6 @@ In examining the GOODWYN-6 and WILCOX wells' stratigraphy, geological period con
 
 For further inquiries or to initiate a discussion, please feel free to contact me via <a href="mailto:salmanarkan020@gmail.com"><span class="label">email</span></a>. Additionally, you can visit my professional website (click the image/gif).
 
-<a href="SalmanArkan.github.io" target="_blank">
+<a href="https://salmanarkan.github.io/" target="_blank">
 <img src="https://github.com/SalmanArkan/SalmanArkan/blob/main/GithubBanner.gif" width="400" height="200" border="10" />
 </a>
