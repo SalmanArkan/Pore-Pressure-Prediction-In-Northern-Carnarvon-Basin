@@ -7,6 +7,21 @@ This project employs machine learning models to predict pore pressure in the Nor
 ## Methodology
 
 ## Data Collection
+<a href="https://wapims.dmp.wa.gov.au/wapims" target="_blank">
+<img src="https://catalogue.data.wa.gov.au/uploads/group/2020-10-07-052505.314296DMIRS-datawa.svg" width="260" height="200" border="10" />
+</a>
+
+This dataset uses open source from the **Government of Western Australia Department of Mines, Industry Regulation, and Safety**.
+
+<a href="https://www.ga.gov.au/scientific-topics/energy/province-sedimentary-basin-geology/petroleum/acreagerelease/northerncarnarvon" target="_blank">
+<img src="https://www.ga.gov.au/__data/assets/image/0019/87040/Fig13_PP-2973-40_Rankin_Regional_2020.png" width="560" height="500" border="10" />
+</a>
+
+This project is focusing on the Northern Carnarvon Basin. The image shows the region of the research area, namely the Rankin Platform by focusing on the WILCOX-1 well, WILCOX-2 well, and GOODWYN-6. 
+
+<a href="https://www.ga.gov.au/scientific-topics/energy/province-sedimentary-basin-geology/petroleum/acreagerelease/northerncarnarvon" target="_blank">
+<img src="https://www.ga.gov.au/__data/assets/image/0006/109869/PP-3978-9_Strat_Rankin.jpg" width="560" height="1000" border="10" />
+</a>
 
 ## Pre-processing
 
