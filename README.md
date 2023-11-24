@@ -4,6 +4,8 @@ This project employs machine learning models to predict pore pressure in the Nor
 
 ## Executive Summary
 
+The main focus of this study is to evaluate machine learning models in predicting pore pressure values, which is a crucial aspect of drilling operations. The goal is to create strong machine-learning models by leveraging drilling data, with a specific emphasis on target pore pressure. Once developed, these models will play a pivotal role in predicting pore pressure with high accuracy. The ultimate aim is to implement these models as valuable tools to guide and optimize future drilling activities, thereby enhancing operational efficiency.
+
 ## Methodology
 
 ## Data Collection
@@ -11,17 +13,19 @@ This project employs machine learning models to predict pore pressure in the Nor
 <img src="https://catalogue.data.wa.gov.au/uploads/group/2020-10-07-052505.314296DMIRS-datawa.svg" width="260" height="200" border="10" />
 </a>
 
-This dataset uses open source from the **Government of Western Australia Department of Mines, Industry Regulation, and Safety**.
+The study utilized a dataset from the open-access repository provided by the **Government of Western Australia Department of Mines, Industry Regulation, and Safety**.
 
 <a href="https://www.ga.gov.au/scientific-topics/energy/province-sedimentary-basin-geology/petroleum/acreagerelease/northerncarnarvon" target="_blank">
 <img src="https://www.ga.gov.au/__data/assets/image/0019/87040/Fig13_PP-2973-40_Rankin_Regional_2020.png" width="560" height="500" border="10" />
 </a>
 
-This project is focusing on the Northern Carnarvon Basin. The image shows the region of the research area, namely the Rankin Platform by focusing on the WILCOX-1 well, WILCOX-2 well, and GOODWYN-6. 
+The objective of this project is to explore the Northern Carnarvon Basin. The accompanying image highlights the research area's geographical boundaries, with a particular focus on the Rankin Platform. The study's primary points of interest are the WILCOX-1 well, WILCOX-2 well, and GOODWYN-6, all of which are critical areas of investigation in this comprehensive study.
 
 <a href="https://www.ga.gov.au/scientific-topics/energy/province-sedimentary-basin-geology/petroleum/acreagerelease/northerncarnarvon" target="_blank">
 <img src="https://www.ga.gov.au/__data/assets/image/0006/109869/PP-3978-9_Strat_Rankin.jpg" width="560" height="1000" border="10" />
 </a>
+
+In examining the GOODWYN-6 and WILCOX wells' stratigraphy, geological period congruence exists, but ages differ.
 
 ## Pre-processing
 
@@ -29,11 +33,11 @@ This project is focusing on the Northern Carnarvon Basin. The image shows the re
 
 ## Conclusion
 
-*  Two wells (WILCOX-1 & WILCOX-2) are used for prediction and one well (GOODWYN-6) for blind test.
-*  Three models that are used for the prediction of Multi-Layer Perceptron, Random Forest, and XGBoost indicate the best modeling.
-*  Based on three models before using hyperparameter tuning, Random Forest has the best prediction with an R2 score is 0.9997.
-*  Based on three models after using hyperparameter tuning, Multi-Layer Perceptro has the best prediction with an R2 score is 0.9998.
-*  For blind tests using GOODWYN-6 well, the Multi-Layer Perceptro has the best prediction with an R2 score is 0.9999.
+*  The prediction analysis involves training and testing on two wells, WILCOX-1 and WILCOX-2, with GOODWYN-6 designated for blind testing.
+*  Three models, namely Multi-Layer Perceptron, Random Forest, and XGBoost were used for prediction.
+*  Before tuning hyperparameters, Random Forest achieved superior performance with an R2 score of 0.9997.
+*  After hyperparameter tuning, the Multi-Layer Perceptron was identified as the optimal model, achieving an improved R2 score of 0.9998.
+*  During the blind test of the GOODWYN-6 well, the Multi-Layer Perceptron achieved an exceptional R2 score of 0.9999, demonstrating its superior predictive capability.
 
 
 # Contact Me
